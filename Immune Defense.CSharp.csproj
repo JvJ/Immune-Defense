@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Creeper.cs" />
+    <Compile Include="Assets\MouseController.cs" />
     <Compile Include="Assets\NavGrid.cs" />
+    <Compile Include="Assets\Spawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
